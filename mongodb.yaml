@@ -1,0 +1,6 @@
+- name: confuguration of mongodb
+  hosts: mongodb
+  task:
+  - name: 
+  - ansible.builtin.
+
