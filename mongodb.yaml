@@ -1,5 +1,6 @@
 - name: confuguration of mongodb
   hosts: mongodb
+  become: yes
   tasks:
   - name: Copy a mongodb_repo
     ansible.builtin.copy:
