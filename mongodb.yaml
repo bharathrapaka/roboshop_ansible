@@ -1,6 +1,6 @@
 - name: confuguration of mongodb
   hosts: mongodb
-  task:
+  tasks:
   - name: Copy a mongodb_repo
   ansible.builtin.copy:
     src: mongodb.service
